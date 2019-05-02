@@ -10,8 +10,28 @@
     border-radius: 2px;
   }
 
-.green-button{
+.green-btn{
     border: none;
     background-color: #4CAF50;
     color: white;
 }
+
+.blue-btn {
+  border: none;
+  background-color: hsl(204, 86%, 53%)
+  color: white;
+}
+
+.red-btn {
+  border: none;
+  background-color: red;
+  color: black;
+}
+
+.click-btn:hover{
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+..click-btn:active{
+  box-shadow: none;
+}
+

@@ -12,19 +12,19 @@
 
 .green-btn{
     border: none;
-    background-color: #4CAF50;
+    background-color: #25D952;
     color: white;
 }
 
 .blue-btn {
   border: none;
-  background-color: hsl(204, 86%, 53%)
+  background-color: #327AD9;
   color: white;
 }
 
 .red-btn {
   border: none;
-  background-color: red;
+  background-color: #F23869;
   color: black;
 }
 

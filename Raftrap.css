@@ -35,12 +35,13 @@
   box-shadow: none;
 }
 
-.form {
-  background-color: #D9E1EA;
-  color: #374862;
-  border-radius: 2px;
+.grid10{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
-.input{
-  color: #97A8BD;
+#gridtest{
+  
 }

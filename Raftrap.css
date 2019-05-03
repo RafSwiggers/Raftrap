@@ -127,3 +127,9 @@
       border: none;
       border-radius: 1px;
   }
+
+  .rafcode {
+      background-color: #000;
+      color: green;
+      font-family: 'Courier New', Courier, monospace
+  }

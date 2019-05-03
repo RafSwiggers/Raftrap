@@ -85,3 +85,32 @@
       height: auto;
       padding: 8px;
   }
+
+  .rafgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-column-gap: 2px;
+      grid-row-gap: 2px;
+      background-color: darkslategrey;
+  }
+
+  #grid{
+      width: 500px;
+      height: 500px;
+  }
+
+  #SQ1 {
+      grid-row-start: 3;
+      grid-row-end: 5;
+      grid-column-start: 4;
+      grid-column-end: 7;
+      background-color: dodgerblue;
+  }
+  #SQ2{
+        grid-row-start: 5;
+        grid-row-end: 8;
+        grid-column-start: 4;
+        grid-column-end: 7;
+        background-color: dodgerblue;
+  }

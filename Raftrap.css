@@ -7,13 +7,38 @@
 .btn-blue{
     color: white;
     background-color: dodgerblue;
-    border: 1px solid white;
+    border: none;
 }
 
-.screen {
-    width: 100%;
-    background-color: darkgray;
+.click:hover{
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+}
+
+.click:active{
+    box-shadow: none;
+}
+
+.bruce {
+    background-image: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
     text-align: center;
-    vertical-align: center;
-    font-weight: 300px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bruce * {
+    font-size: 75px;;
+}
+
+.quotestrapwhite {
+    display: flex;
+    border: 5px solid white;
+    align-content: center;
+    margin: auto auto;
+    padding: 35px 35px;
+    background-color: darkslategray;
+    color: white;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
 }

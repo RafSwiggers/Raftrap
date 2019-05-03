@@ -114,3 +114,16 @@
         grid-column-end: 7;
         background-color: dodgerblue;
   }
+
+  .rafform{
+      background-color: #324359;
+      color: #F0F3F7;
+
+  }
+
+  .rafform input{
+      background-color: #D9E1EA;
+      color: #495971;
+      border: none;
+      border-radius: 1px;
+  }

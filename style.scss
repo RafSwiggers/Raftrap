@@ -1,0 +1,130 @@
+$dangerred: F20574;
+$buttonborder: none;
+$clickshadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+$radial: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
+$formbackground:  #324359;
+$formfield: #F0F3F7;
+
+
+%btn {
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.btn-blue{
+    color: white;
+    background-color: dodgerblue;
+    border: $buttonborder;
+}
+
+.btn-red{
+    color: white;
+    background-color: $dangerred;
+    border: $buttonborder;
+}
+
+.btn-back{
+    color: dodgerblue;
+    background-color: white;
+    border: 1px solid dodgerblue;
+}
+
+.click:hover{
+    box-shadow: $clickshadow
+}
+
+.click:active{
+    box-shadow: none;
+}
+
+.bruce {
+    background-image: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    * {
+        font-size: 70px;
+    }
+}
+
+.quotestrapwhite {
+    display: flex;
+    border: 5px solid white;
+    align-content: center;
+    margin: auto auto;
+    padding: 35px 35px;
+    background-color: darkslategray;
+    color: white;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed; 
+    overflow: auto; 
+    a{
+        color: #000;
+    text-decoration: none;
+    width: 60px;
+    }
+    li:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    li{
+        height: auto;
+        padding: 8px;
+
+  }
+
+  .rafgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-column-gap: 2px;
+      grid-row-gap: 2px;
+      background-color: darkslategrey;
+  }
+  .rafform{
+      background-color:$formbackground;
+      color: #F0F3F7;
+      margin-top: 5px;
+  }
+
+  .rafform input{
+      background-color: #D9E1EA;
+      color: $formbackground;
+      border: none;
+      border-radius: 1px;
+  }
+
+  .rafcode {
+      background-color: black;
+      color: green;
+      font-family: 'Courier New', Courier, monospace
+  }
+
+
+  .titles{
+      background-color: $formbackground;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  #form {
+      position: relative;
+      left: 21vw;
+  }
+}

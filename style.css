@@ -1,0 +1,91 @@
+.btn-blue {
+  color: white;
+  background-color: dodgerblue;
+  border: none; }
+
+.btn-red {
+  color: white;
+  background-color: F20574;
+  border: none; }
+
+.btn-back {
+  color: dodgerblue;
+  background-color: white;
+  border: 1px solid dodgerblue; }
+
+.click:hover {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75); }
+
+.click:active {
+  box-shadow: none; }
+
+.bruce {
+  background-image: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+  .bruce * {
+    font-size: 70px; }
+
+.quotestrapwhite {
+  display: flex;
+  border: 5px solid white;
+  align-content: center;
+  margin: auto auto;
+  padding: 35px 35px;
+  background-color: darkslategray;
+  color: white;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif; }
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20vw;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  overflow: auto; }
+  .navbar ul a {
+    color: #000;
+    text-decoration: none;
+    width: 60px; }
+  .navbar ul li:hover {
+    background-color: #4CAF50;
+    color: white; }
+  .navbar ul .active {
+    background-color: #4CAF50;
+    color: white; }
+  .navbar ul li {
+    height: auto;
+    padding: 8px; }
+  .navbar ul .rafgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: darkslategrey; }
+  .navbar ul .rafform {
+    background-color: #324359;
+    color: #F0F3F7;
+    margin-top: 5px; }
+  .navbar ul .rafform input {
+    background-color: #D9E1EA;
+    color: #324359;
+    border: none;
+    border-radius: 1px; }
+  .navbar ul .rafcode {
+    background-color: black;
+    color: green;
+    font-family: "Courier New", Courier, monospace; }
+  .navbar ul .titles {
+    background-color: #324359;
+    font-family: 'Poppins', sans-serif; }
+  .navbar ul #form {
+    position: relative;
+    left: 21vw; }
+
+/*# sourceMappingURL=style.css.map */

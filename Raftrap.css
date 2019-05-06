@@ -124,6 +124,10 @@
       margin-top: 5px;
   }
 
+  .rafform *{
+    margin: 2px;
+  }
+
   .rafform input{
       background-color: #D9E1EA;
       color: #495971;
@@ -141,9 +145,20 @@
   .titles{
       background-color: #324359;
       font-family: 'Poppins', sans-serif;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      position: relative;
+      left: 20vw;
+
   }
 
   #form {
       position: relative;
       left: 21vw;
+      
+  }
+
+  #code {
+    position: relative;
+    left: 30vw;
   }

@@ -1,7 +1,7 @@
 $dangerred: F20574;
 $buttonborder: none;
 $clickshadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
-$radial: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
+$radial: linear-gradient(to right, rgba(22,43,162,1) 0%, rgba(32,124,229,1) 100%);
 $formback:  #324359;
 $formfield: #F0F3F7;
 $capblue: #162CA2;
@@ -133,3 +133,30 @@ $capblue: #162CA2;
       left: 21vw;
   }
 
+.square {
+    background-color: $capblue;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+
+  #SQ1 {
+    @extend .square;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: auto;
+    padding-top: 2vw;
+}
+
+#SQ2{
+    @extend .square;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    padding: auto;
+    padding-top: 2vw;
+}

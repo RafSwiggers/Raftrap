@@ -1,0 +1,126 @@
+.btn {
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid black; }
+
+.btn-blue {
+  color: white;
+  background-color: #162CA2;
+  border: none; }
+
+.btn-red {
+  color: white;
+  background-color: F20574;
+  border: none; }
+
+.btn-back {
+  color: #162CA2;
+  background-color: white;
+  border: 1px solid #162CA2; }
+
+.click:hover {
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75); }
+
+.click:active {
+  box-shadow: none; }
+
+.bruce {
+  background-image: linear-gradient(to right, #162ba2 0%, #207ce5 100%);
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+  .bruce * {
+    font-size: 70px; }
+
+.quotestrapwhite {
+  display: flex;
+  border: 5px solid white;
+  align-content: center;
+  margin: auto auto;
+  padding: 35px 35px;
+  background-color: darkslategray;
+  color: white;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif; }
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20vw;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  overflow: auto; }
+  .navbar ul a {
+    color: #000;
+    text-decoration: none;
+    width: 60px; }
+  .navbar ul li:hover {
+    background-color: #4CAF50;
+    color: white; }
+  .navbar ul .active {
+    background-color: #4CAF50;
+    color: white; }
+  .navbar ul li {
+    height: auto;
+    padding: 8px; }
+
+.rafgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  background-color: darkslategrey; }
+
+.rafform {
+  background-color: #324359;
+  color: #F0F3F7;
+  margin-top: 5px; }
+  .rafform input {
+    background-color: #D9E1EA;
+    color: #324359;
+    border: none;
+    border-radius: 1px; }
+
+.rafcode {
+  background-color: black;
+  position: relative;
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+  left: 20vw; }
+
+.titles {
+  background-color: #162CA2;
+  font-family: 'Poppins', sans-serif;
+  color: white; }
+
+#form {
+  position: relative;
+  left: 21vw; }
+
+.square, #SQ1, #SQ2 {
+  background-color: #162CA2;
+  color: white;
+  align-content: center;
+  text-align: center; }
+
+#SQ1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  padding: auto;
+  padding-top: 2vw; }
+
+#SQ2 {
+  grid-row-start: 5;
+  grid-row-end: 9;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  padding: auto;
+  padding-top: 2vw; }
+
+/*# sourceMappingURL=style.css.map */

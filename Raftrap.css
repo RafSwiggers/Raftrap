@@ -6,7 +6,7 @@
 
 .btn-blue{
     color: white;
-    background-color: dodgerblue;
+    background-color: #162CA2;
     border: none;
 }
 
@@ -19,7 +19,7 @@
 .btn-back{
     color: dodgerblue;
     background-color: white;
-    border: 1px solid dodgerblue;
+    border: 1px solid #162CA2;
 }
 
 .click:hover{
@@ -108,20 +108,24 @@
       grid-row-end: 2;
       grid-column-start: 1;
       grid-column-end: 3;
-      background-color: dodgerblue;
+      background-color:#162CA2;
   }
   #SQ2{
         grid-row-start: 5;
         grid-row-end: 8;
         grid-column-start: 4;
         grid-column-end: 7;
-        background-color: dodgerblue;
+        background-color: #162CA2;
   }
 
   .rafform{
       background-color: #324359;
       color: #F0F3F7;
       margin-top: 5px;
+  }
+
+  .rafform *{
+    margin: 2px;
   }
 
   .rafform input{
@@ -141,9 +145,20 @@
   .titles{
       background-color: #324359;
       font-family: 'Poppins', sans-serif;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      position: relative;
+      left: 20vw;
+
   }
 
   #form {
       position: relative;
       left: 21vw;
+      
+  }
+
+  #code {
+    position: relative;
+    left: 30vw;
   }

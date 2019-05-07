@@ -4,6 +4,7 @@ $clickshadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
 $radial: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
 $formbackground:  #324359;
 $formfield: #F0F3F7;
+$capblue: #162CA2
 
 
 %btn {
@@ -15,7 +16,7 @@ $formfield: #F0F3F7;
 
 .btn-blue{
     color: white;
-    background-color: dodgerblue;
+    background-color: $capblue;
     border: $buttonborder;
 }
 
@@ -28,7 +29,7 @@ $formfield: #F0F3F7;
 .btn-back{
     color: dodgerblue;
     background-color: white;
-    border: 1px solid dodgerblue;
+    border: 1px solid $capblue;
 }
 
 .click:hover{
@@ -40,7 +41,7 @@ $formfield: #F0F3F7;
 }
 
 .bruce {
-    background-image: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
+    background-image: radial-gradient(circle, $capblue, #0089df, #0095e4, #00a1e8, #12aceb);
     text-align: center;
     width: 100%;
     color: white;

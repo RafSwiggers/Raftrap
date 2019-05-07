@@ -2,12 +2,12 @@ $dangerred: F20574;
 $buttonborder: none;
 $clickshadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
 $radial: radial-gradient(circle, #147dd9, #0089df, #0095e4, #00a1e8, #12aceb);
-$formbackground:  #324359;
+$formback:  #324359;
 $formfield: #F0F3F7;
-$capblue: #162CA2
+$capblue: #162CA2;
 
 
-%btn {
+.btn {
     border-radius: 2px;
     background-color: white;
     border: 1px solid black;
@@ -27,7 +27,7 @@ $capblue: #162CA2
 }
 
 .btn-back{
-    color: dodgerblue;
+    color: $capblue;
     background-color: white;
     border: 1px solid $capblue;
 }
@@ -41,7 +41,7 @@ $capblue: #162CA2
 }
 
 .bruce {
-    background-image: radial-gradient(circle, $capblue, #0089df, #0095e4, #00a1e8, #12aceb);
+    background-image: $radial;
     text-align: center;
     width: 100%;
     color: white;
@@ -90,8 +90,9 @@ $capblue: #162CA2
         padding: 8px;
 
   }
+}
 
-  .rafgrid {
+.rafgrid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -99,33 +100,36 @@ $capblue: #162CA2
       grid-row-gap: 2px;
       background-color: darkslategrey;
   }
-  .rafform{
-      background-color:$formbackground;
+.rafform{
+      background-color:$formback;
       color: #F0F3F7;
       margin-top: 5px;
-  }
-
-  .rafform input{
+   input{
       background-color: #D9E1EA;
-      color: $formbackground;
+      color: $formback;
       border: none;
       border-radius: 1px;
   }
+}
 
-  .rafcode {
+.rafcode {
       background-color: black;
+      position: relative;
       color: green;
-      font-family: 'Courier New', Courier, monospace
+      font-family: 'Courier New', Courier, monospace;
+      left: 20vw;
   }
 
 
-  .titles{
-      background-color: $formbackground;
+.titles{
+      background-color: $capblue;
       font-family: 'Poppins', sans-serif;
+      color: white;
+
   }
 
-  #form {
+#form {
       position: relative;
       left: 21vw;
   }
-}
+

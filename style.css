@@ -104,15 +104,15 @@
   position: relative;
   color: green;
   font-family: 'Courier New', Courier, monospace;
-  left: 20vw; }
+  left: 20vw;
+  padding: 1px; }
 
 .titles {
   background-color: #162CA2;
   font-family: 'Poppins', sans-serif;
   color: white;
   position: relative;
-  left: 20vw;
-  padding: 1vw; }
+  left: 20vw; }
 
 #form {
   position: relative;
@@ -148,5 +148,9 @@
   padding: 35px 35px;
   width: 50vw;
   background-color: #162CA2; }
+
+#codediv {
+  background-color: black;
+  padding: 1vw; }
 
 /*# sourceMappingURL=style.css.map */

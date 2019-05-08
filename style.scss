@@ -135,6 +135,7 @@ $capblue: #162CA2;
       color: green;
       font-family: 'Courier New', Courier, monospace;
       left: 20vw;
+      padding: 1px;
   }
 
 
@@ -144,7 +145,7 @@ $capblue: #162CA2;
       color: white;
       position: relative;
       left: 20vw;
-      padding: 1vw;
+      
 
   }
 
@@ -190,4 +191,8 @@ $capblue: #162CA2;
     padding: 35px 35px;
     width: 50vw;
     background-color: $capblue;
+}
+#codediv{
+    background-color: black;
+    padding:1vw;
 }

@@ -51,16 +51,30 @@ $capblue: #162CA2;
     }
 }
 
-.quotestrapwhite {
+@mixin quotestrap {
     display: flex;
-    border: 5px solid white;
-    align-content: center;
     margin: auto auto;
     padding: 35px 35px;
-    background-color: darkslategray;
-    color: white;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
+    align-content: center;
+    font-size: 20px;
+    
+
+}
+
+.quotestrapwhite {
+    @include quotestrap;
+    border: 5px solid white;
+    background-color: darkslategray;
+    color: white;
+}
+
+.quotestrapblack{
+    @include quotestrap;
+    border: 5px solid black;
+    color: black;
+
 }
 
 .navbar ul {
@@ -159,4 +173,12 @@ $capblue: #162CA2;
     grid-column-end: 9;
     padding: auto;
     padding-top: 2vw;
+}
+
+#quotes {
+    position: relative;
+    left: 10vw;
+    margin: auto auto;
+    padding: 35px 35px;
+    width: 50vw;
 }

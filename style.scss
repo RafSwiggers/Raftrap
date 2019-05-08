@@ -1,7 +1,7 @@
 $dangerred: F20574;
 $buttonborder: none;
 $clickshadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
-$radial: linear-gradient(to right, rgba(22,43,162,1) 0%, rgba(32,124,229,1) 100%);
+$gradient: linear-gradient(to right, rgba(22,43,162,1) 0%, rgba(32,124,229,1) 100%);
 $formback:  #324359;
 $formfield: #F0F3F7;
 $capblue: #162CA2;
@@ -41,7 +41,7 @@ $capblue: #162CA2;
 }
 
 .bruce {
-    background-image: $radial;
+    background-image: $gradient;
     text-align: center;
     width: 100%;
     color: white;
@@ -66,7 +66,6 @@ $capblue: #162CA2;
 .quotestrapwhite {
     @include quotestrap;
     border: 5px solid white;
-    background-color: darkslategray;
     color: white;
 }
 
@@ -139,6 +138,8 @@ $capblue: #162CA2;
       background-color: $capblue;
       font-family: 'Poppins', sans-serif;
       color: white;
+      position: relative;
+      left: 20vw;
 
   }
 
@@ -181,4 +182,5 @@ $capblue: #162CA2;
     margin: auto auto;
     padding: 35px 35px;
     width: 50vw;
+    background-color: $capblue;
 }

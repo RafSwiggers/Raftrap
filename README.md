@@ -28,4 +28,13 @@ Divides your container into a 10X10 grid, fitting to size. For easy layout and r
 #### Code
 Black background, green lettering. Specific matrix-like font. No specificity for different languages.
 
+#### Bruce
+The Bruce class turns your div into a banner. Page-wide, blue, gradient background. 
+
+#### Title
+A miniature version of the Bruce class.
+
+#### Navbar
+Styles a UL into a vertical, side-lying navbar.
+
 ### [Check out the page here!](https://rafswiggers.github.io/Raftrap/index.html)

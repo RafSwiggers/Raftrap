@@ -37,4 +37,13 @@ A miniature version of the Bruce class.
 #### Navbar
 Styles a UL into a vertical, side-lying navbar.
 
+#### Quotestrap
+I made two distinct versions of a quote class. This gives you the choice between a light version and a dark version.
+
+##### Quotestrapwhite
+This will put the quote center page, new font, square border of half-page width. All in white.
+
+##### Quotestrapblack
+This will put the quote center page, new font, square border of half-page width. All in black.
+
 ### [Check out the page here!](https://rafswiggers.github.io/Raftrap/index.html)
